@@ -1,7 +1,12 @@
+
 # SRB-25 Vehicle Electronics & Data Acquisition System
 
 Electrical system redesign, wiring harness development, sensor integration, telemetry implementation, and data acquisition support for the Spartan Racing Baja SAE vehicle.
+<p align="center">
+<img width="250" alt="TransparentHarnesView" src="https://github.com/user-attachments/assets/02503849-b039-49af-8b12-a0fa2c76c327" />
+<img width="350"  alt="Whole Harnes" src="https://github.com/user-attachments/assets/227b2b3f-b67a-421f-a4e7-67a20b77700d" />
 
+</p>
 ---
 
 ## Overview
@@ -62,6 +67,8 @@ The SRB-25 harness was redesigned to improve durability and serviceability while
 
 #### Right Side Harness
 
+<img width="335" height="206" alt="WholeCarharnes" src="https://github.com/user-attachments/assets/776c354b-b338-47a3-9204-c39d9b240fca" />
+
 - Brake light circuit
 - Differential switch circuit
 - Kill switch circuit
@@ -89,6 +96,7 @@ The harness routing model was used to:
 - Improve serviceability
 - Avoid debris and driver contact points
 - Guide final vehicle installation
+<img width="792" height="1027" alt="CADOldBackside" src="https://github.com/user-attachments/assets/f81181d6-21b1-4aa8-b333-c569bf5699ce" />
 
 Approximate total wiring:
 
@@ -111,12 +119,15 @@ A centralized electrical hub was introduced to replace scattered inline fuse imp
 
 Example circuits:
 
+
 | Circuit | Fuse |
 |----------|--------|
 | Evo5 Data Logger | 2 A |
 | RPM Sensor | 1 A |
 | Polaris Differential | 1 A |
 | Brake Light | 1 A |
+
+<img width="1717" height="850" alt="WiringSCh" src="https://github.com/user-attachments/assets/ac738e4a-fa12-4d80-ac64-2977f7e05294" />
 
 ---
 
@@ -130,6 +141,10 @@ Integrated sensors include:
 - CVT Temperature Sensor
 - Engine RPM Sensor
 
+<img width="2250" height="3000" alt="ThrottlePositionSensor" src="https://github.com/user-attachments/assets/a98a5471-71f5-4411-a3f8-b2b15186eb8f" />
+<img width="4655" height="2618" alt="CANIMUTestingPeakUSBAdpater" src="https://github.com/user-attachments/assets/544ee3a0-c06a-484f-9ee0-357dc68206c1" />
+
+
 These sensors support vehicle testing, tuning, and performance evaluation.
 
 ---
@@ -137,6 +152,8 @@ These sensors support vehicle testing, tuning, and performance evaluation.
 ## Data Acquisition
 
 The vehicle electrical system supports data acquisition for performance monitoring and testing.
+
+<img width="643" height="401" alt="Evo5Gui" src="https://github.com/user-attachments/assets/e581e939-c018-4d98-8e61-c944e7a0d8f8" />
 
 ### Telemetry Inputs
 
@@ -167,6 +184,10 @@ The system was tested on the SRB-25 vehicle to verify:
 
 Testing included on-vehicle validation during Baja SAE development and testing events.
 
+<img width="192" height="131" alt="EHub" src="https://github.com/user-attachments/assets/257128ff-b80a-46f8-aaee-9de3ab1fe65f" />
+
+<img width="4032" height="2268" alt="BacksideElectricalntegration" src="https://github.com/user-attachments/assets/038699cf-44ca-49e0-b480-0e2dae7ddc4c" /><img width="178" height="260" alt="EHubPostTesting" src="https://github.com/user-attachments/assets/12e2593d-03bf-4697-9579-b046a080c13a" />
+
 ---
 
 ## Advanced Vehicle Instrumentation
@@ -174,6 +195,9 @@ Testing included on-vehicle validation during Baja SAE development and testing e
 The team supported advanced vehicle testing efforts using professional-grade instrumentation.
 
 A Michigan Scientific Wheel Force Transducer (WFT) was loaned for vehicle testing and data collection.
+
+
+<img width="2268" height="4032" alt="WheelForceTrasnducer" src="https://github.com/user-attachments/assets/ece003aa-a572-430b-956c-58f5d082fcc7" />
 
 The purpose of the testing effort was to:
 
@@ -222,18 +246,6 @@ Areas under investigation include:
 - Telemetry systems
 - Vehicle networking
 
-### Power Distribution Unit (PDU)
-
-Planned future work includes:
-
-- Fused outputs
-- Current sensing
-- CAN communication
-- 12 V / 5 V / 3.3 V rails
-- STM32-based control
-- Vehicle diagnostics
-
----
 
 ## Results
 
