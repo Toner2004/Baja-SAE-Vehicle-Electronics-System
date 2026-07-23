@@ -1,142 +1,227 @@
-# Baja-SAE-Vehicle-Electronics-System
+# Baja-SAE Vehicle Electronics & Data Acquisition System
 
-Electrical system design and wiring harness development project for a Baja SAE off-road competition vehicle. This project focused on power distribution, sensor integration, wiring harness routing, electrical hub packaging, and data acquisition infrastructure.
+Electrical system design, wiring harness development, sensor integration, and telemetry implementation for the Spartan Racing Baja SAE vehicle.
 
 ---
 
 ## Overview
 
-This project documents the electrical architecture developed for a Baja SAE vehicle, including battery selection, power distribution, electrical hub packaging, wiring harness routing, sensor integration, and data acquisition planning.
+As Electronics Lead for Spartan Racing Baja, I led the design, documentation, and integration of the vehicle electrical system. The project focused on developing a reliable electrical architecture capable of supporting vehicle instrumentation, safety circuits, data acquisition, and future system expansion.
 
-The system was designed to support vehicle instrumentation, safety circuits, power distribution, and sensor data collection for testing and competition use.
+The final system combined:
 
----
-
-## Project Scope
-
-- Vehicle electrical system architecture
-- Wiring harness planning and routing
-- Electrical hub packaging
-- Fuse block and power distribution planning
-- Sensor channel organization
-- Battery and connector selection
-- Wire length calculations
-- Serviceability and packaging considerations
+- Wiring harness design and routing
+- Sensor integration
+- Data acquisition infrastructure
+- Power distribution
+- Electrical documentation
+- Vehicle telemetry
+- On-vehicle validation and testing
 
 ---
 
-## System Architecture
+## Project Highlights
 
-The electrical system was organized around several key subsystems:
-
-- Batteries
-- Electrical hub
-- Wiring harness
-- Wiring diagrams
-- Sensors
-- Data acquisition system
-
----
-
-## Electrical Hub Design
-
-The electrical hub was designed to package key electrical components in a serviceable location on the vehicle. The enclosure selection considered available internal space, wire management, service loops, and accessibility for fuse replacement.
-
-Key considerations included:
-
-- Component packaging
-- Fuse access
-- Wire routing
-- Serviceability
-- Vehicle mounting location
-- Clearance around nearby vehicle structures
+- Designed complete vehicle wiring architecture
+- Routed harnesses using SolidWorks CAD models
+- Integrated wheel speed, brake pressure, suspension travel, RPM, and CVT temperature sensors
+- Supported CAN-based data acquisition infrastructure
+- Developed electrical documentation and wiring diagrams
+- Performed vehicle testing and telemetry validation
+- Led electronics development activities for Baja SAE competition preparation
 
 ---
 
-## Wiring Harness Routing
+# Vehicle Electronics Integration
 
-Harness routing was planned using CAD to separate major vehicle electrical paths.
+The electrical system was integrated throughout the chassis to support both vehicle operation and performance monitoring.
 
-### Right Side Harness
+<p align="center">
+<img src="images/rear_installation.jpg" width="700">
+</p>
 
-The right side harness included:
+Electrical subsystem packaging and wiring integration within the Baja SAE vehicle chassis.
 
-- Differential power
-- Kill switch wiring
+---
+
+# CAD-Based Harness Planning
+
+Harness routing was developed using CAD to ensure serviceability, protection, and manufacturability.
+
+<p align="center">
+<img src="images/full_vehicle_routing.png" width="700">
+</p>
+
+Complete vehicle routing layout showing major electrical paths.
+
+<p align="center">
+<img src="images/harness_routing_overview.png" width="700">
+</p>
+
+Electrical system divided into left-side and right-side harness assemblies.
+
+<p align="center">
+<img src="images/harness_assembly.png" width="650">
+</p>
+
+Standalone harness layout generated during routing development.
+
+---
+
+# Wiring Harness Development
+
+The vehicle harness was separated into several subsystems:
+
+## Right Side Harness
+
+- Differential switch circuit
+- Kill switch circuit
 - Brake light circuit
-- Battery power input
+- Power input routing
 
-### Left Side Harness
+## Left Side Harness
 
-The left side harness included:
-
-- Camera wiring
-- RPM sensor
-- CVT temperature sensor
 - Wheel speed sensors
 - Brake pressure sensors
-- Linear travel sensors
-- Driver dash connections
+- Suspension travel sensors
+- RPM sensor
+- CVT temperature sensor
+- Data acquisition connections
+
+<p align="center">
+<img src="images/rear_harness_install.jpg" width="500">
+</p>
+
+Installed harness routing on the vehicle chassis.
 
 ---
 
-## Power Distribution
+# Sensor Integration
 
-The electrical system used fused circuits for key vehicle electronics. The fuse block layout included circuits for the data logger, RPM sensor, differential circuit, and brake light circuit.
+The vehicle data acquisition system supports several performance-monitoring sensors.
+
+Integrated sensors include:
+
+- Wheel Speed Sensors
+- Brake Pressure Sensors
+- Suspension Travel Sensors
+- CVT Temperature Sensor
+- Engine RPM Sensor
+
+<p align="center">
+<img src="images/sensor_channel_diagram.png" width="700">
+</p>
+
+Sensor channel planning and data acquisition architecture.
 
 ---
 
-## Sensors and Data Acquisition
+# Data Acquisition Dashboard
 
-The vehicle electronics system supported multiple sensor channels for vehicle testing and performance monitoring, including:
+Vehicle telemetry was displayed through a mobile dashboard interface for testing and system validation.
 
-- Wheel speed sensing
-- Brake pressure sensing
-- Linear travel sensors
-- CVT temperature
-- RPM sensing
+<p align="center">
+<img src="images/telemetry_dashboard.jpg" width="350">
+</p>
 
-The system was designed to interface with a vehicle data acquisition system for logging and analysis.
+Real-time monitoring of engine RPM and temperature measurements.
 
 ---
 
-## Engineering Considerations
+# Vehicle Testing & Validation
 
-- Wire length estimation
-- Service loop planning
+Sensor functionality and data acquisition performance were verified during vehicle testing.
+
+<p align="center">
+<img src="images/vehicle_testing.jpg" width="500">
+</p>
+
+Telemetry system validation during field testing.
+
+Testing activities included:
+
+- Signal verification
+- Sensor validation
+- Harness inspection
+- Telemetry verification
+- Vehicle integration testing
+
+---
+
+# Documentation
+
+Engineering documentation generated during development included:
+
+- Wiring diagrams
+- Sensor channel assignments
+- Harness routing plans
+- Wire length calculations
 - Connector selection
-- Crimp tooling
-- Fuse sizing
-- Harness routing
-- Packaging constraints
-- Serviceability
-- Vibration and off-road vehicle conditions
+- Power distribution studies
+- Design reviews
+
+<p align="center">
+<img src="images/wiring_schematic.png" width="700">
+</p>
+
+Vehicle wiring schematic used for integration and troubleshooting.
 
 ---
 
-## Skills Demonstrated
+# Skills Demonstrated
 
-- Vehicle Electrical System Design
+- Vehicle Electronics
 - Wiring Harness Design
-- Power Distribution
+- Data Acquisition Systems
+- CAN Communications
 - Sensor Integration
-- CAD-Based Harness Routing
-- Connector Selection
-- Fuse Block Planning
-- Data Acquisition Integration
+- Power Distribution
+- CAD-Based Routing
 - Electrical Documentation
-- Cross-Functional Vehicle Integration
+- Connector Selection
+- Testing & Validation
+- System Integration
+- Technical Leadership
 
 ---
 
-## Project Status
+# My Contributions
 
-Electrical design review and planning completed. Harness routing, component selection, and system documentation were developed as part of the Baja SAE vehicle electronics system.
+As Electronics Lead, I was responsible for:
+
+- Vehicle electrical architecture
+- Wiring harness planning and routing
+- Sensor integration strategy
+- Data acquisition implementation
+- Technical documentation
+- Design reviews
+- Electrical team leadership
+- Vehicle testing support
 
 ---
 
-## Author
+# Technologies Used
+
+### Software
+
+- SolidWorks
+- MATLAB
+- Python
+- Arduino IDE
+
+### Hardware
+
+- AiM EVO5
+- Wheel Speed Sensors
+- Brake Pressure Sensors
+- Suspension Travel Sensors
+- RPM Sensors
+- CVT Temperature Sensors
+
+---
+
+# Author
 
 Anthony Garcia
 
-Electrical Engineering • Vehicle Electronics • Wiring Harness Design • Data Acquisition Systems
+Electrical Engineering | Vehicle Electronics | RF Systems | Embedded Systems | Data Acquisition
