@@ -303,40 +303,6 @@ The SRB-25 electronics redesign helped:
 
 ---
 
-## Suggested Repository Structure
-
-```text
-SRB25-Vehicle-Electronics-System/
-│
-├── README.md
-│
-├── images/
-│   ├── srb25_harness_routing_model.png
-│   ├── right_side_wire_lengths.png
-│   ├── left_side_wire_lengths.png
-│   ├── srb25_electrical_hub.png
-│   ├── vehicle_wiring_diagram.png
-│   ├── sensor_wiring_diagram.png
-│   ├── analog_channels_can_bus.png
-│   ├── future_daq_work.png
-│   ├── future_pdu_concept.png
-│   └── electronics_database.png
-│
-├── documentation/
-│   ├── sanitized_design_summary.md
-│   ├── harness_notes.md
-│   └── sensor_channel_notes.md
-│
-├── diagrams/
-│   ├── power_distribution_overview.png
-│   ├── harness_block_diagram.png
-│   └── sensor_channel_overview.png
-│
-└── calculations/
-    ├── wire_length_summary.xlsx
-    ├── voltage_drop_notes.md
-    └── fuse_assignment_table.xlsx
-```
 
 ---
 
