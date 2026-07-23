@@ -185,9 +185,9 @@ The system was tested on the SRB-25 vehicle to verify:
 
 Testing included on-vehicle validation during Baja SAE development and testing events.
 <p align="center">
-<img width="192" height="131" alt="EHub" src="https://github.com/user-attachments/assets/257128ff-b80a-46f8-aaee-9de3ab1fe65f" />
-
-<img width="4032" height="2268" alt="BacksideElectricalntegration" src="https://github.com/user-attachments/assets/038699cf-44ca-49e0-b480-0e2dae7ddc4c" /><img width="178" height="260" alt="EHubPostTesting" src="https://github.com/user-attachments/assets/12e2593d-03bf-4697-9579-b046a080c13a" />
+<img width="300"  alt="EHub" src="https://github.com/user-attachments/assets/257128ff-b80a-46f8-aaee-9de3ab1fe65f" />
+<img width="300" alt="EHubPostTesting" src="https://github.com/user-attachments/assets/12e2593d-03bf-4697-9579-b046a080c13a" />
+<img width="4032" height="2268" alt="BacksideElectricalntegration" src="https://github.com/user-attachments/assets/038699cf-44ca-49e0-b480-0e2dae7ddc4c" />
 </p>
 ---
 
