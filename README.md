@@ -19,8 +19,6 @@ The project included:
 - Electrical documentation
 - Future controller, telemetry, and power distribution development
 
-> This repository is a sanitized portfolio summary of the SRB-25 electronics work. Sensitive team documents, full internal design files, and confidential reports are not included.
-
 ---
 
 ## Project Background
