@@ -3,8 +3,8 @@
 
 Electrical system redesign, wiring harness development, sensor integration, telemetry implementation, and data acquisition support for the Spartan Racing Baja SAE vehicle.
 <p align="center">
-<img width="250" alt="TransparentHarnesView" src="https://github.com/user-attachments/assets/02503849-b039-49af-8b12-a0fa2c76c327" />
-<img width="350"  alt="Whole Harnes" src="https://github.com/user-attachments/assets/227b2b3f-b67a-421f-a4e7-67a20b77700d" />
+<img width="320" alt="TransparentHarnesView" src="https://github.com/user-attachments/assets/02503849-b039-49af-8b12-a0fa2c76c327" />
+<img width="420"  alt="Whole Harnes" src="https://github.com/user-attachments/assets/227b2b3f-b67a-421f-a4e7-67a20b77700d" />
 
 </p>
 ---
@@ -96,8 +96,9 @@ The harness routing model was used to:
 - Improve serviceability
 - Avoid debris and driver contact points
 - Guide final vehicle installation
+  <p align="center">
 <img width="792" height="1027" alt="CADOldBackside" src="https://github.com/user-attachments/assets/f81181d6-21b1-4aa8-b333-c569bf5699ce" />
-
+</p>
 Approximate total wiring:
 
 - ~108 ft of wire
@@ -126,9 +127,9 @@ Example circuits:
 | RPM Sensor | 1 A |
 | Polaris Differential | 1 A |
 | Brake Light | 1 A |
-
-<img width="1717" height="850" alt="WiringSCh" src="https://github.com/user-attachments/assets/ac738e4a-fa12-4d80-ac64-2977f7e05294" />
-
+<p align="center">
+<img width="450" alt="WiringSCh" src="https://github.com/user-attachments/assets/ac738e4a-fa12-4d80-ac64-2977f7e05294" />
+</p>
 ---
 
 ## Sensor Integration
@@ -140,10 +141,10 @@ Integrated sensors include:
 - 4 Suspension Travel Sensors
 - CVT Temperature Sensor
 - Engine RPM Sensor
-
+<p align="center">
 <img width="2250" height="3000" alt="ThrottlePositionSensor" src="https://github.com/user-attachments/assets/a98a5471-71f5-4411-a3f8-b2b15186eb8f" />
 <img width="4655" height="2618" alt="CANIMUTestingPeakUSBAdpater" src="https://github.com/user-attachments/assets/544ee3a0-c06a-484f-9ee0-357dc68206c1" />
-
+</p>
 
 These sensors support vehicle testing, tuning, and performance evaluation.
 
@@ -154,7 +155,7 @@ These sensors support vehicle testing, tuning, and performance evaluation.
 The vehicle electrical system supports data acquisition for performance monitoring and testing.
 
 <img width="643" height="401" alt="Evo5Gui" src="https://github.com/user-attachments/assets/e581e939-c018-4d98-8e61-c944e7a0d8f8" />
-
+The AiM EVO5 configuration was used to organize sensor channels, sampling rates, and vehicle telemetry inputs for testing.
 ### Telemetry Inputs
 
 - Wheel speed
@@ -183,11 +184,11 @@ The system was tested on the SRB-25 vehicle to verify:
 - Vehicle integration
 
 Testing included on-vehicle validation during Baja SAE development and testing events.
-
+<p align="center">
 <img width="192" height="131" alt="EHub" src="https://github.com/user-attachments/assets/257128ff-b80a-46f8-aaee-9de3ab1fe65f" />
 
 <img width="4032" height="2268" alt="BacksideElectricalntegration" src="https://github.com/user-attachments/assets/038699cf-44ca-49e0-b480-0e2dae7ddc4c" /><img width="178" height="260" alt="EHubPostTesting" src="https://github.com/user-attachments/assets/12e2593d-03bf-4697-9579-b046a080c13a" />
-
+</p>
 ---
 
 ## Advanced Vehicle Instrumentation
@@ -195,10 +196,10 @@ Testing included on-vehicle validation during Baja SAE development and testing e
 The team supported advanced vehicle testing efforts using professional-grade instrumentation.
 
 A Michigan Scientific Wheel Force Transducer (WFT) was loaned for vehicle testing and data collection.
+<p align="center">
 
-
-<img width="2268" height="4032" alt="WheelForceTrasnducer" src="https://github.com/user-attachments/assets/ece003aa-a572-430b-956c-58f5d082fcc7" />
-
+<img width="450" alt="WheelForceTrasnducer" src="https://github.com/user-attachments/assets/ece003aa-a572-430b-956c-58f5d082fcc7" />
+</p>
 The purpose of the testing effort was to:
 
 - Collect wheel force data
