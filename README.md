@@ -311,7 +311,7 @@ SRB25-Vehicle-Electronics-System/
 ├── images/
 │
 ├── documentation/
-│   ├── WFT_Testing_Event.md
+│   ├── Michigan Scientific WFT.md
 │   ├── Wiring_Harness_Overview.md
 │   └── Sensor_Channel_Layout.md
 │
